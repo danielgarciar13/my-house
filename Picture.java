@@ -97,14 +97,27 @@ public class Picture
     
     public void amanecer()
     {
-        sun.moveVertical(-20);
-        sun.moveVertical(-20);
-        sun.moveVertical(-20);
-        sun.moveVertical(-20);
-        sun.moveVertical(-20);
-        sun.moveVertical(-20);
-        sun.moveVertical(-20);
-        sun.moveVertical(-20);
-        sun.moveVertical(-20);
+        sun.slowMoveVertical(-20);
+        sun.slowMoveVertical(-20);
+        sun.slowMoveVertical(-20);
+        sun.slowMoveVertical(-20);
+        sun.slowMoveVertical(-20);
+        sun.slowMoveVertical(-20);
+        sun.slowMoveVertical(-20);
+        sun.slowMoveVertical(-20);
+        sun.slowMoveVertical(-20);
+    }
+    
+    public void atardecer()
+    {
+        sun.slowMoveVertical(20);
+        sun.slowMoveVertical(20);
+        sun.slowMoveVertical(20);
+        sun.slowMoveVertical(20);
+        sun.slowMoveVertical(20);
+        sun.slowMoveVertical(20);
+        sun.slowMoveVertical(20);
+        sun.slowMoveVertical(20);
+        sun.slowMoveVertical(20);
     }
 }
